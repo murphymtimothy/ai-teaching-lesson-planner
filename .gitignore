@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.env
+outputs/*.json
+outputs/_debug/
+outputs/phase1_runs/
+!outputs/.gitkeep
+.DS_Store
+# Tunnels / local-only binaries
+cloudflared.exe
+cloudflared
